@@ -1,0 +1,3 @@
+exclude: [readme.txt, compass-watch.bat, jekyll-watch.bat, config.rb, scss/]
+encoding: utf-8
+destination: ../_site

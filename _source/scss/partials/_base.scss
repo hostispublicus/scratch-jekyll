@@ -1,0 +1,36 @@
+//import reset styles
+@import "compass/reset";
+
+//import Compass utilities
+@import "compass/utilities";
+
+//import Compass CSS3
+@import "compass/css3";
+
+// Fonts
+
+// end fonts
+
+// Variables
+
+$font-family-1: Helvetica, Arial, sans-serif, Garuda, FreeSans;
+
+$color-1: #000; //Black
+
+// end variables
+
+// Mixins
+
+@mixin no-outline{
+  outline:  none;
+  ie-dummy: expression(this.hideFocus=true);
+}
+
+@mixin inline-block{
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+// end mixins
